@@ -15,20 +15,23 @@
     <section>
         <h1>Kalkulator</h1>
         <p>Legg inn tall i hver rute og se hva du får. <br> Du kan også velge regneart selv.</p>
+
         <div>
             <input type="number" id="tallEn">
+            <select id="velgRegneart">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>            
+                </select>
             <input type="number" id="tallTo">
-            <div class="btns">
-                <button id="add">+</button>
-                <button id="subtract">-</button>
-                <button id="multiply">*</button>
-                <button id="divide">/</button>
-            </div>
+
             <div class="answer">
                 <p>=</p>
                 <h2 id="svar">0</h2>
             </div>
         </div>
+        
     </section>
     <script src="./index.js"></script>
 

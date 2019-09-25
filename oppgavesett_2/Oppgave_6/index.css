@@ -42,16 +42,14 @@ input[type="number"] {
     margin-right: 8px;
 }
 
-.btns button {
-    background-color: #3F8AD5;
-    color: white;
+input[type=number] {
+    width: 100px;
+    border: 1px solid #00577F;
     border-radius: 8px;
-    border: none;
-    padding: 14px;
-    margin-bottom: 20px;
+    padding: 6px;
     font-size: 16px;
 }
 
-.btns button:hover {
-    background-color: darkblue;
+input[type=number]:focus {
+    outline: none;
 }
