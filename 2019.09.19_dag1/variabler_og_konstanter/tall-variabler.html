@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tall variabler</title>
+</head>
+
+<body>
+
+    <h1>Tall variabler</h1>
+    <script>
+
+        // Før 2015 brukte man var. Brukte det for både let og const.
+        // var saldo = 1200;
+        let saldo = 1200;
+        const MAKS_UTTAK_PER_UKE = 10000;
+        document.write(`<p>Saldo: kr${saldo}</p>`);
+
+        // Jeg vil sette inn 1000 kroner 
+        saldo = saldo + 1000;
+        document.write(`<p>Satt inn 1000kr</p>`);
+        document.write(`<p>Saldo: kr${saldo}</p>`);
+
+        // Men det fins en annen måte
+        // Som gjør akkurat det samme med litt mindre kode
+        saldo += 1000;
+        document.write(`<p>Satt inn 1000kr</p>`);
+        document.write(`<p>Saldo: kr${saldo}</p>`);
+
+        // Ta ut penger
+        saldo -= 500;
+        document.write(`<p>Tatt ut 500kr</p>`);
+        document.write(`<p>Saldo: kr${saldo}</p>`);
+
+        // Øke med 1
+        saldo++;
+        document.write(`<p>++ øker saldoen med 1</p>`);
+        document.write(`<p>Saldo: kr${saldo}</p>`);
+
+        // Ganger seg selv med 10
+        saldo *= 10;
+        document.write(`<p>* ganger saldoen med 10</p>`);
+        document.write(`<p>Saldo: kr${saldo}</p>`);
+
+        let tekst = "Hei på deg.";
+        tekst += " Din gamle sau.";
+
+        document.write(tekst);
+
+    </script>
+
+</body>
+
+</html>

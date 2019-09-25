@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tekst og Javascript</title>
+
+    <link rel="stylesheet" href="./index.html">
+</head>
+
+<body>
+    <h1>Det er 3 måter å definere tekst i Javascript</h1>
+    <ul>
+        <script>
+            document.write("<li>Med doble 'apostrofer'</li>") /* vanligste måten. Lov å bruke enkle apostrofer inne i doble apostrofer */
+            document.write('<li>Enkle "apostrofer"</li>') /* lov å ha doble apostrofer inne i enkle apostrofer */
+            document.write(`<li>"Bakover"-'apostrof'</li>`) /* dette er super-apostrofene. Kan ha så mange enkle og doble apostrofer du vil. */
+        </script>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+
+body {
+    background-color: black;
+    font-family: sans-serif;
+    color: #333;
+}
+#brett {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 4px;
+    position: relative;
+}
+
+#brikker {
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 4px;
+}
+
+#brikker div {
+    background-color: whitesmoke;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#bakgrunn {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 4px;
+}
+
+#bakgrunn div {
+    background-color: #333;
+    border-radius: 4px;
+}

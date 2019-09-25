@@ -1,0 +1,1 @@
+document.write('<img src="tiger.jpg" alt="Tiger som ligger på en gren">');

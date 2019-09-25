@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Variabler og konstanter</title>
+</head>
+
+<body>
+
+    <h1>Variabler og konstanter</h1>
+    <script>
+        // En konstant er ikke mylig å endre når programmet kjører
+        const person = "Elisabeth Taylor";
+
+        // Hva skjer hvis vi prøver å endre konstanten?
+        // person = "Marilyn Monroe"; 
+        // Hvis det er en feil slutter javascript å kjøre der feilen er og tar ikke med det som kan være riktig lenger ned
+
+        //En variablet kan endres etter at programmet har startet
+
+        // Her definerer vi variabelen
+        let ektefelle = "Burt Reynolds";
+
+        // Her endrer vi variabelen
+        ektefelle = "Burt Lancaster";
+
+        document.write(`
+            <h1>${person}</h1>
+            <p>${person} var en kjent skuespiller.</p>
+            <p>I dag er ${person} gift med ${ektefelle}</p>
+        `);
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript i htmlfilen</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        body{
+            background-color: peachpuff;
+        }
+    </style>
+</head>
+<body>
+    <h1>JS Direkte i HTML-koden</h1>
+    <h2>Et ord for nettsiden i JS er <strong>Document</strong></h2>
+    <script>
+        
+        document.write("<p>Jeg er en tekst som er laget med kode<p>"); /* Skriver en tekst på siden, kan bruke html elementer. "" viser at det er tekst */
+        document.write(32); /*Javscript skjønner at det er tall, trenger ikke ""*/
+        document.write("<hr>");
+        document.write(32+100); /*Den regner ut av seg selv*/
+        document.write("<hr>");
+        document.write("32 "+" 100"); /*Nå ser den på tallene som tekst og regner de da ikke sammen.*/
+        document.write("<hr>");
+        document.write("Bill " + "Gates" + " er " + 32+20 +" ÅR"); /*Når tekst og tall er i samme linje så blir alt tekst*/
+        document.write("<hr>");
+        document.write("Bill " + "Gates" + " er " + (32+20)+" ÅR"); /*For å løse dette så bruker vi paranteser rundt regnestykket*/
+        document.write("<hr>");
+        document.write(300 + "px");
+        document.body.style.fontSize= 80 + "px"; /*Gjør skriften i body til 80px*/
+
+
+    </script>
+    <h2>Dette er HTML</h2>
+</body>
+</html>

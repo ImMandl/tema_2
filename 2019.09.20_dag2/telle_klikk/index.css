@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #00577F;
+}
+
+#txtKlikk {
+    font-size: 1px;
+    color: white;
+    user-select: none;
+}

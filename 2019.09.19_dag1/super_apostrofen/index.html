@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Super apostrofen</title>
+</head>
+
+<body>
+    <h1>Super apostrof heter egentlig string literal</h1>
+    <h2>Het før template string/string template</h2>
+
+    <script>
+        /* ikke lov med linjeskift i de gamle apostrofene (enkle og doble)
+        document.write("
+            <ul>
+                <li></li>
+            </ul>
+        "); */
+
+        /* lov med linjeskift med string literal */
+        document.write(`
+            <ul>
+                <li>En</li>
+                <li>To</li>
+                <li>Tre</li>
+                <li>${20 + 50}</li> <!-- gjør at man ikke lenger går i tekst men tilbake til script  -->
+                <li>Bredden på nettleseren er ${window.innerWidth}</li>
+                <li>URLen til denne siden er ${document.location.href}</li>
+            </ul>
+        `);
+    </script>
+
+</body>
+
+</html>
