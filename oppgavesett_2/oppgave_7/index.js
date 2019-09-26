@@ -1,7 +1,6 @@
 // Referanser til HTML-elementer
 const inpNavn = document.querySelector("#inpNavn");
 const btnStart = document.querySelector("#btnStart");
-const txtInfo = document.querySelector("#txtInfo");
 
 function visInfo() {
     txtInfo.innerHTML = inpNavn.value;

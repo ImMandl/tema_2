@@ -1,0 +1,19 @@
+body {
+    background-color: chocolate;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: white;
+}
+
+.input-felt {
+    margin-bottom: 20px;
+}
+
+input {
+    border: none;
+    border-radius: 4px;
+    padding: 6px;
+}

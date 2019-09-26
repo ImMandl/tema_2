@@ -5,23 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Oppgave 8</title>
+    <title>Oppgave 9</title>
 
     <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
 
-    <h2>Skriv og se hva som skjer</h2>
     <div class="input-felt">
+        <input id="inpNavn" type="text" value="Your name">
+        <input id="inpStilling" type="text" value="Your work">
         <input id="inpURL" type="text" value="paste URL here">
-        <input id="inpBredde" type="number" value="width of image">
-        <input id="inpTittel" type="text" value="Title of image">
     </div>
 
-    <img id="newIMG"
-        src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2019/07/931/524/creepy-cat.jpg?ve=1&tl=1"
-        width="200px" title="katt">
+    <article>
+        <h1 id="fulltnavn">Ditt navn</h1>
+        <p><b>Stilling:</b> <span id="stilling">Din stilling</span></p>
+        <img id="newIMG" src="" alt="">
+    </article>
 
     <script src="./index.js"></script>
 </body>

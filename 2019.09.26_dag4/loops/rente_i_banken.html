@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Finne rente</title>
+</head>
+
+<body>
+    <h1>Hva er renten?</h1>
+
+    <script>
+
+        // Prosenten
+        const vekstfaktor = 1.1;
+        // Antall penger du har i banken når du starter
+        const belop = 2000;
+        // Antall år pengene står i banken
+        let n = 0;
+
+        while (n <= 20) {
+            // 2**4
+            // Begge gjør det samme
+            // const spenn = belop * Math.power(vekstfaktor, n);
+            const spenn = belop * vekstfaktor ** n;
+
+            document.write(`
+                <div>År: ${n}, Beløp: kr.${spenn.toFixed(2)}</div>
+            `);
+
+            n++;
+        }
+
+    </script>
+</body>
+
+</html>

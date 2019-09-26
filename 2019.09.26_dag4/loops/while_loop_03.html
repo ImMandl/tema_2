@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>While loop</title>
+</head>
+
+<body>
+
+    <h1>While-løkker</h1>
+
+    <script>
+
+        const tekst = "HEI PÅ DEG";
+
+        for (const bokstav of tekst) {
+            console.log(bokstav);
+        }
+
+        // denne teller oppover 
+        for (let i = 0; i <= 10; i++) {
+            document.write(i + "<br>");
+        }
+
+        // Løkkene under gjør det samme
+        for (let i = 20; i > 0; i--) {
+            document.write(i + "<br>")
+        }
+
+        let antallKroner = 20;
+        while (antallKroner > 0) {
+            document.write("<h3>" + antallKroner + "</h3>");
+
+            // while gjør ingenting før vi forandrer på variabelen, ellers vil nettsiden bare stå og laste/kræsje
+            antallKroner--;
+        }
+
+    </script>
+</body>
+
+</html>
