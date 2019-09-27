@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(172, 43, 43);
+    text-align: center;
+}
+
+#rutenett {
+    height: 100vh;
+    width: 100vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+    gap: 4px;
+}
+
+#rutenett div {
+    background-color: rgb(82, 27, 27);
+    border-radius: 50%;
+}
