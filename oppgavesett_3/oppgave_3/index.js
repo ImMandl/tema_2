@@ -1,19 +1,20 @@
 const divEn = document.querySelector("#divEn");
-const divTo = document.querySelector("#divTo");
 
-const fargeEn = prompt("Hvilken farge skal den første diven ha?")
-// const fargeTO = prompt("Hvilken farge skal den andre diven ha?")
+const inpFargeEn = prompt("Hvilken farge skal den første diven ha?")
+document.write(`
+    <div 
+        id="div" 
+        style="
+            background-color: ${inpfargeEn.value}; 
+            width: 200px; 
+            height: 200px;
+        ">
+    </div>
+`)
 
-const breddeEn = prompt("Hvilken bredde skal den første diven ha?")
-// const breddeTo = prompt("Hvilken bredde skal den andre diven ha?")
-
-const hoydeEn = prompt("Hvilken høyde skal den første diven ha?")
-// const hoydeTo = prompt("Hvilken høyde skal den andre diven ha?")
-
-
-
-function endeFarge() {
-    divEn.backgroundColor = fargeEn.value;
+function endreFarge() {
+    document.body.style.backgroundColor = fargeEn.value;
 }
+
 
 fargeEn.addEventListener("input", endreFarge);
