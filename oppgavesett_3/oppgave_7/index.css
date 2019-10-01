@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #00577F;
+}
+
+input {
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+article {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto 0;
+}
+
+article img {
+    height: 100%;
+    object-fit: cover
+}

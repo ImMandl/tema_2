@@ -1,20 +1,15 @@
 const divEn = document.querySelector("#divEn");
+const divTo = document.querySelector("#divTo");
 
-const inpFargeEn = prompt("Hvilken farge skal den første diven ha?")
-document.write(`
-    <div 
-        id="div" 
-        style="
-            background-color: ${inpfargeEn.value}; 
-            width: 200px; 
-            height: 200px;
-        ">
-    </div>
-`)
 
-function endreFarge() {
-    document.body.style.backgroundColor = fargeEn.value;
+function endreDiv(boksEn, boksTo) {
+    boksEn.style.backgroundColor = prompt("Div 1: farge");
+    boksEn.style.width = prompt("Div 1: bredde") + "px";
+    boksEn.style.height = prompt("Div 1: høyde") + "px";
+
+    boksTo.style.backgroundColor = prompt("Div 2: farge");
+    boksTo.style.width = prompt("Div 2: bredde") + "px";
+    boksTo.style.height = prompt("Div 2: høyde") + "px";
 }
 
-
-fargeEn.addEventListener("input", endreFarge);
+endreDiv(divEn, divTo);

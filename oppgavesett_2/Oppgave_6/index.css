@@ -27,11 +27,6 @@ section p {
     margin-bottom: 12px;
 }
 
-input[type="number"] {
-    padding: 6px;
-    margin-bottom: 10px;
-}
-
 .answer {
     display: flex;
     flex-direction: row;
@@ -48,6 +43,7 @@ input[type=number] {
     border-radius: 8px;
     padding: 6px;
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
 input[type=number]:focus {

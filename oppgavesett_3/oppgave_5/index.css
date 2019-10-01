@@ -1,6 +1,31 @@
+body {
+    height: 90vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    text-align: center;
+}
+
+#inp-felt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin: 5px;
+}
+
 #box {
-    position: absolute;
+    background-color: green;
     width: 20px;
     height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
     transition: 1s;
 }
