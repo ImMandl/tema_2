@@ -1,18 +1,25 @@
-const inpNavn = document.querySelector("#inpNavn");
+const inpFornavn = document.querySelector("#inpFornavn");
+const inpEtternavn = document.querySelector("#inpEtternavn");
+
 const inpStilling = document.querySelector("#inpStilling");
 const inpURL = document.querySelector("#inpURL");
+const inpForm = document.querySelector("#inpForm");
 
-const fulltnavn = document.querySelector("#fulltnavn");
+const outFornavn = document.querySelector("#outFornavn");
+const outEtternavn = document.querySelector("#outEtternavn");
 const stilling = document.querySelector("#stilling");
 const newIMG = document.querySelector("#newIMG");
 
 
 function visittkort() {
-    fulltnavn.innerHTML = inpNavn.value;
+    outFornavn.innerHTML = inpFornavn.value;
+    outEtternavn.innerHTML = inpEtternavn.value;
     stilling.innerHTML = inpStilling.value;
     newIMG.src = inpURL.value;
 }
 
-inpNavn.addEventListener("input", visittkort);
+inpFornavn.addEventListener("input", visittkort);
+inpEtternavn.addEventListener("input", visittkort);
+inpEtternavn.addEventListener("input", visittkort);
 inpStilling.addEventListener("input", visittkort);
 inpURL.addEventListener("input", visittkort);

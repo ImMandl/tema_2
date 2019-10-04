@@ -1,0 +1,2 @@
+timetall()
+fravaer()

@@ -1,0 +1,18 @@
+Oppgavestt 4 - oppgave 8 - 3a)
+
+const - definerer en variabel. Kan ikke endres
+
+let - definerer en variabel. Kan endres
+
+if, else - utfører handlinger basert på forskjellige forhold. Hvis noe er sant kan den utføre handlingen, men hvis den finner
+           ut at det ikke er sant vil den gå videre og utføre neste handling.
+
+console.log - skriver ut i consolen 
+
+= - er lik eller skal bli noe
+
+=== - er lik value og type
+
+{ } - deklarerer et objekt
+
+; - avslutter 

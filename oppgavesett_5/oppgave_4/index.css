@@ -1,0 +1,10 @@
+body {
+    background-color: #112233;
+}
+
+main {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}

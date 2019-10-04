@@ -13,13 +13,17 @@
 <body>
 
     <div class="input-felt">
-        <input id="inpNavn" type="text" value="Your name">
-        <input id="inpStilling" type="text" value="Your work">
-        <input id="inpURL" type="text" value="paste URL here">
+        <input id="inpFornavn" type="text" value="" placeholder="First name">
+        <input id="inpEtternavn" type="text" value="" placeholder="Last name">
+        <input id="inpStilling" type="text" value="" placeholder="Your job">
+        <input id="inpURL" type="text" value="" placeholder="Paste URL here">
     </div>
 
     <article>
-        <h1 id="fulltnavn">Ditt navn</h1>
+        <div class="divNavn">
+            <h1 id="outFornavn">Navn</h1>
+            <h1 id="outEtternavn"></h1>
+        </div>
         <p><b>Stilling:</b> <span id="stilling">Din stilling</span></p>
         <img id="newIMG" src="" alt="">
     </article>
