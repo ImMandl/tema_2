@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Filtrere array</title>
+</head>
+
+<body>
+
+    <script>
+
+        const tallene = [1, 2, 3, 4, 12, 32, 44, 11, 25];
+
+        // tar tallene som er større enn 7 og legger det inn i "storeTall"
+        const storeTall = tallene.filter(tall => tall > 7);
+
+        /*
+        const storeTall = [];
+
+        for (const tall of tallene) {
+            // hvis et tall nå er større enn 7 vil det bli puttet inn i "storeTall"
+            if (tall > 7) {
+                storeTall.push(tall);
+            }
+        }
+        */
+
+        console.log(storeTall);
+    </script>
+</body>
+
+</html>
