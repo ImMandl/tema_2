@@ -1,0 +1,16 @@
+*, html, body {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+svg {
+    margin: 20px;
+}
+
+div {
+    margin: 20px;
+}
+
+canvas {
+    margin: 20px;
+}

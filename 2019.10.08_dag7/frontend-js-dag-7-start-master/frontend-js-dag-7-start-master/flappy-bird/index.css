@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    background-color: indianred;
+}
+
+main {
+    background-image: url(./img/bakgrunn.png);
+    position: relative; /* gjør så #theBird holder seg inne i main siden #theBird har position: absolute */
+    background-color: lightblue;
+    height: 384px;
+    width: 288px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+#theBird {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    width: 25px;
+    user-select: none;
+}
