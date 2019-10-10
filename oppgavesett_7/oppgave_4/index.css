@@ -1,0 +1,33 @@
+html, body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lavender;
+}
+
+svg {
+    background-color: #112233;
+    width: 100vw;
+    height: calc(100vh - 60px);
+}
+
+polyline, polygon {
+    stroke: peachpuff;
+    stroke-width: 5;
+    fill: transparent;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    background-color: beige;
+    position: absolute;
+    top: 225px;
+    left: 60px;
+}

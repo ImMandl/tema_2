@@ -12,10 +12,13 @@
 
 <body>
 
+    <h3>Skriv inn antall timer du har i faget og se om du har nok timer</h3>
     <form id="submitForm">
-        <input type="number" id="inpTimer" placeholder="skriv inn dine timer">
+        <input type="number" id="inpTimer" min="0" max="140" placeholder="skriv inn dine timer">
         <button id="btn">submit</button>
     </form>
+
+    <div id="utskrift"></div>
 
     <script src="./index.js"></script>
 </body>

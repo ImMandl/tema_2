@@ -1,22 +1,22 @@
 const inpTimer = document.querySelector("#inpTimer");
 const submitForm = document.querySelector("#submitForm");
 
+const utskift = document.querySelector("#utskrift");
+
 const timetall = 140;
 const prosent = 0.10;
 
 const fravaersgrensa = Math.max(timetall * prosent); // = 14
 
 function regnestykke(evt) {
-    evt.preventDefaul();
+    evt.preventDefault();
 
     if (fravaersgrensa < inpTimer.value) {
-        console.log("Du har nok timer i dette faget");
+        utskrift.innerHTML = `<h3>Du har nok timer i dette faget</h3>`;
     } else {
-        console.log("Du har for få timer i dette faget");
+        utskrift.innerHTML = `<h3>Du har for få timer i dette faget</h3>`;
     }
 }
-
-regnestykke();
 
 submitForm.addEventListener("submit", regnestykke);
 

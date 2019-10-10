@@ -1,0 +1,24 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00577F;
+}
+
+main {
+    width: 350px;
+    height: 350px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00577F;
+}
+
+main div {
+    position: absolute;
+    width: 2px;
+    height: 8px;
+    background-color: peachpuff;
+}

@@ -1,0 +1,9 @@
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: #112233;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    rotate: 120deg;
+}

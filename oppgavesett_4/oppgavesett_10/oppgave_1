@@ -1,0 +1,11 @@
+// Oppgavestt 4 - oppgave 10
+
+// Oppgave 1)
+// a)
+// Resulatet av koden blir at et element vil snu seg 120 grader 3 ganger
+
+// b)
+// Jeg tror at den vil gå 3 gangern fordi for-løkken sier at i = 0, men at så lenge den er under 3 så skal den plusses med 1
+// Jeg tror den vil snurre da et element heter rotasjon som sier at i = 120.
+
+
