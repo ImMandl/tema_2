@@ -1,0 +1,19 @@
+svg {
+    border: 1px solid grey;
+}
+
+polygon {
+    fill: crimson;
+}
+
+rect {
+    x: 300;
+    fill: coral;
+    transition: fill 0.3s;
+    rx: 20;
+    ry: 20;
+}
+
+rect:hover {
+    fill: cornflowerblue;
+}
