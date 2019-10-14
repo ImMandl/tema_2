@@ -157,11 +157,11 @@ function lagKnapper() {
 }
 
 function endGame() {
-    if (p > 6) {
+    if (p >= 6) {
         oppgaveSection.innerHTML = `
     <h2>Du er ferdig og scoret ${p} poeng! Gratulerer! Vil du prøve igjen?</h2>
     <a href="index.html" class="btn">Vil du prøve på nytt?</a>`
-    } else if (p < 5) {
+    } else if (p <= 5) {
         oppgaveSection.innerHTML = `
     <h2>Du er ferdig og scoret ${p} poeng! Vil du prøve igjen?</h2>
     <a href="index.html" class="btn">Vil du prøve på nytt?</a>`
